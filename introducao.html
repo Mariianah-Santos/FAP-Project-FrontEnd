@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução</title>
+</head>
+<body>
+    <h1>ATIVIDADE 1: HTML</h1>
+    <fieldset>
+
+        <h2><strong>Conhecendo o HTML e sua estrutura básica</strong></h2>
+        <p>1 - O que é o HTML e qual é o seu papel na construção de páginas web? Descreva brevemente a
+            estrutura básica de um documento HTML.</p>
+        <p><strong> R: HTML (HyperText Markup Language) é a linguagem de marcação usada para 
+            criar a estrutura básica de uma página web. Ele define o conteúdo e a estrutura 
+            da página, permitindo que os navegadores entendam e exibam corretamente o conteúdo 
+            ao usuário. O HTML utiliza tags para definir elementos como textos, imagens, links e 
+            outros componentes de uma página web.</strong></p>
+    
+        <p>2. Como o HTML se relaciona com outras tecnologias da web, como o CSS e o JavaScript? Como essas
+            três tecnologias trabalham em conjunto para criar páginas web interativas e estilizadas?</p>
+        
+        <p><strong>R: As linguagens HTML, CSS e JavaScript são os pilares fundamentais 
+            no desenvolvimento de páginas web, cada um com um papel específico:
+            HTML define o conteúdo e a estrutura da página.
+            CSS é usado para estilizar e formatar o conteúdo HTML, garantindo que a página tenha uma aparência atraente e consistente.
+            JavaScript adiciona funcionalidade dinâmica, como validação de formulários, animações, e atualizações em tempo real sem recarregar a página.</strong></p>
+    </fieldset>
+    </br>
+    <fieldset>
+        <h2><strong>Identificando tags HTML básicas</strong></h2>
+        <p>1. Cite três tags HTML básicas e explique o propósito de cada uma delas. Dê exemplos de situações em
+            que você as usaria ao construir uma página web.</p>
+        <p><strong>R: 1 - tag: h1 - Usada para titulos (Informativo de seção)
+            2 - tag: img - Usada para adicionar imagens online ou ja existente no computador. (Deixa a minha página mais bonitas com fotos de paisagens).
+            3 - tag: header - Usada para criar um cabeçalho numa página. (Usaria para criar um barra de lista nao ordenada)
+        </strong></p>
+        <p>2. Além das tags mencionadas, qual é a importância das tags de listagem, como ul e ol, no
+            contexto da estruturação de conteúdo em uma página? Dê exemplos de quando você escolheria
+            uma sobre a outra.</p>
+        <p><strong>R: Elas permitem apresentar informações de maneira clara e hierárquica, facilitando a leitura e compreensão dos dados. 
+            UL - Usaria quando não houver necessidade de usar hierárquica numerica.
+            OL - Usaria quando houver necessidade de usar a hierárquica numerica.
+        </strong></p>
+    </fieldset>
+</br>
+    <fieldset>
+        <h2><strong>Vinculando páginas, arquivos e âncoras</strong></h2>
+        <p>1. Como a tag [a] é utilizada para criar links em HTML? Explique como você pode vincular para outras
+            páginas, para arquivos locais e criar âncoras dentro de uma página.</p>
+        <p><strong>R: é usada em HTML para criar links, permitindo que os usuários naveguem 
+            de uma página para outra ou para diferentes seções da mesma página.
+            [a href="https://www.exemplo.com">Visite o Exemplo.com [/a]
+            [a href="documentos/relatorio.pdf">Baixe o Relatório</a>
+            [a href="sobre.html">Sobre Nós[/a]
+            <h2 id="secao1">Seção 1</h2>
+            <p>Conteúdo da Seção 1.</p>
+            [a href="#secao1">Ir para Seção 1[/a]
+        </strong></p>
+    
+        <p>2. Além do atributo href, quais outros atributos importantes a tag [a] pode ter? Como o atributo
+            target pode ser usado para controlar como o link é aberto pelo navegador?</p>
+        
+        <p><strong> R:
+            1 - title, download, hreflang;
+            2. target:
+            Função: Controla onde o link será aberto.
+            Valores Comuns:
+            _self (padrão): Abre o link na mesma janela ou aba.
+            _blank: Abre o link em uma nova janela ou aba.
+            _parent: Abre o link na janela ou aba pai do contexto atual.
+            _top: Abre o link na janela ou aba inteira, substituindo qualquer frameset que possa estar presente.</strong></p>
+    </fieldset>
+</br>
+    <fieldset>
+        <h2><strong>Incorporando imagens e mídias</strong></h2>
+        <p>1. Descreva a diferença entre os atributos src e alt em relação à tag [img]. Por que é importante
+            fornecer um atributo alt adequado para imagens?</p>
+        <p><strong>R: src - caminho que esta armazenado alguma mídia
+            alt - texto alternativo
+            É importante para identificar o qu esta ali se não carregou a midia.
+        </strong></p>
+    
+        <p>2. Além de imagens, quais outros tipos de mídia podem ser incorporados em uma página HTML?
+            Como você pode garantir que a mídia incorporada seja responsiva e se ajuste bem em diferentes
+            dispositivos?</p>
+        <p><strong>R: aúdio, documentos e videos
+            Use estilos CSS para garantir que a mídia se ajuste ao tamanho da tela. 
+            O CSS pode ajudar a controlar a largura e altura da mídia e ajustar a exibição 
+            em diferentes tamanhos de tela.
+        </strong></p>
+    </fieldset>
+</br>
+    <fieldset>
+        <h2><strong>Criando tabelas básicas</strong></h2>
+        <p>1. Quais são as principais tags usadas para criar tabelas em HTML? Explique a diferença entre as tags
+            [th] e [td], e quando você as usaria.</p>
+        <p><strong>R: Tags Principais para Criar Tabelas [table], [tr], [th], [td], [tr]
+            th - Representa uma célula de cabeçalho que define o título ou a descrição da coluna ou linha. 
+            td - Representa uma célula de dados que contém informações específicas da tabela. As células de dados são usadas para preencher o conteúdo da tabela.
+        </strong></p>
+    
+        <p>2. Embora tabelas sejam usadas para exibir dados tabulares, às vezes é recomendado evitá-las em
+            favor de outras formas de apresentação de dados. Por quê? E quais são os cenários em que as
+            tabelas são apropriadas?</p>
+        <p><strong>R: Dificuldade em visualizar tendências, Sobrecarga de informações, Falta de impacto visual:
+            Quando as tabelas são apropriadas?
+            Dados precisos e detalhados, Dados complexos que exigem análise, Dados que não se beneficiam de visualização.
+        </strong></p>
+    </fieldset>
+</br>
+    <fieldset>
+        <h2><strong>Criando formulários</strong></h2>
+        <p>1. Como a tag [form] é utilizada para criar formulários em HTML? Cite pelo menos três tipos
+            diferentes de campos de entrada ([input]) que podem ser usados em um formulário.</p>
+        <p><strong>R: Ela define uma área em uma página web onde o usuário pode inserir dados, 
+            como nome, e-mail, senha, etc. Esses dados podem ser enviados para um servidor para 
+            processamento posterior, como salvar em um banco de dados ou realizar alguma 
+            ação específica.
+            1 - input: e-mail;
+            2 - input: senha;
+            3 - input: file (arquivo)</strong></p>
+        <p>2. Além dos campos de entrada, quais outros elementos podem ser incluídos em um formulário para
+            melhorar a usabilidade e a experiência do usuário?</p>
+        <p><strong>1 - Label;
+            2 - button;
+            3 - fieldset;
+        </strong></p>
+    </fieldset>
+</br>
+    <fieldset>
+        <h2><strong>Técnicas avançadas de estruturação com elementos HTML5 semânticos</strong></h2>
+        <p>1. O que são elementos HTML5 semânticos e por que são importantes na estruturação de uma
+    página? Cite três exemplos de elementos semânticos e explique quando você os usaria.</p>
+        <p><strong>R: Elementos semânticos no HTML5 são aqueles que, além de definir a 
+            estrutura visual de uma página, carregam um significado específico sobre o conteúdo 
+            que encerram. Em vez de apenas descrever como algo deve aparecer na tela, eles 
+            descrevem o que aquele conteúdo representa. Isso torna o código mais legível para 
+            desenvolvedores e mais compreensível para navegadores e mecanismos de busca.
+            [header] - Para criar um cabeçalho de uma página;
+            [nav] - Para colocar listas não ordenadas numa página.
+            [footer] - um rodapé para mostrar algumas informações sobre os site, parceiros.</strong></p>
+    
+            <p>2. Além da semântica, como os elementos HTML5 podem afetar a acessibilidade das páginas web? Por
+                que é fundamental considerar a acessibilidade ao escolher elementos de estruturação?</p>
+            <p><strong>R: Para uma melhor estrutura e Navegação, atributos de acessibilidade.
+                    Inclusão;
+                    Legalidade e Conformidade:
+                    experiência do usuario.
+            </strong></p>
+    </fieldset>
+        
+</body>
+</html>
