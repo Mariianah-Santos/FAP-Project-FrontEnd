@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/icons8-formato-96.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section class="form">
+            <form action="#">
+                <div class="title">
+                    <h1>Formulário do FAP</h1>
+                    <div id="line-title"></div>
+                </div>
+                <div class="input-grup">
+                    <div class="input-box">
+                        <label for="name">Nome Completo</label>
+                        <input id="name" type="text" placeholder="Digite seu nome">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="text" placeholder="Digite um Email">
+                    </div>
+                    <div class="input-box">
+                        <label for="idade">Idade:</label>
+                        <input id="idade" type="number" placeholder="Digite seu idade">
+                    </div>
+                    <div class="input-box">
+                        <label for="tel">Telefone</label>
+                        <input id="tel" type="text" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <div class="input-box">
+                        <label for="Endereco">Endereço</label>
+                        <input id="Endereco" type="text" placeholder="Bairro, Rua e Nº">
+                    </div>
+                </div>
+                <div class="selectSchool">
+                    <label for="school">Escolaridade:</label>
+                    <select name="" id="school">
+                        <option value="">Ensino Médio Completo</option>
+                        <option value="">Graduação</option>
+                        <option value="">Técnico</option>
+                        <option value="">Outro</option>
+                    </select>
+                    <div class="selectSchoolOther">
+                        <label for="other">Outro:</label>
+                        <input id="other" type="text" placeholder="Digite aqui sua Escolaridade">
+                    </div>
+                </div>
+                <div class="genero-grup">
+                    <h3>Gênero</h3>
+                    <input type="radio" name="gender" id="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="gender" id="feminina">
+                    <label for="feminina">Feminino</label>
+                    <input type="radio" name="gender" id="otherGender">
+                    <label for="otherGender">Outro</label>
+                    <input type="radio" name="gender" id="Ndizer">
+                    <label for="Ndizer">prefiro não dizer</label>
+                </div>
+                <div class="btn-send">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
