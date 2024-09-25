@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(203, 197, 197, 0.272);
+}
+.container {
+    width: 500px;
+    height: 510px;
+    border-radius: 20px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+}
+
+.container .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    font-style: italic;
+}
+.container fieldset {
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 20px;
+    margin: 0.5rem;
+    padding: 10px;
+}
+.container legend {
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 1rem;
+    font-weight: 600;
+} 
+
+.container .box-usuario-grup .info-usuario-grup label{
+    font-size: 12px;
+    margin-left: 2rem;
+}
+
+.container .box-usuario-grup .info-usuario-grup .info-usuario-input input {
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    float: right;
+    width: 60%;
+}
+.container .box-usuario-grup .info-usuario-grup .info-usuario-input select {
+    float: right;
+    width: 30%;
+}
+
+.container .senha {
+    margin-top: 1px;
+}
+
+.pagamento {
+    margin-top: 1px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn button{
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 4px 60px 4px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}

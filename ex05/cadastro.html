@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <form action="">
+                <div class="title">
+                    <h1>Restaurante</h1>
+                </div>
+                <fieldset class="box-usuario-grup">
+                    <legend>Informação do Usuário</legend>
+                    <div class="info-usuario-grup">
+                        <div class="info-usuario-input">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="info-usuario-input">
+                            <label for="gener">Sexo:</label>
+                            <select name="" id="gener">
+                                <option value="">Masculino</option>
+                                <option value="">Feminino</option>
+                            </select>
+                        </div>
+                        <div class="info-usuario-input">
+                            <label for="nascimento">Data de Nascimento:</label>
+                            <input type="date" id="nascimento">
+                        </div>
+                        <div class="senha">
+                            <div class="info-usuario-input">
+                                <label for="senha">Digite a senha:</label>
+                                <input type="password" id="senha">
+                            </div>
+                            <div class="info-usuario-input">
+                                <label for="senhaRepita">Repita a senha:</label>
+                                <input type="password" id="senhaRepita">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="box-usuario-grup">
+                    <legend>Endereço</legend>
+                    <div class="info-usuario-grup">
+                        <div class="info-usuario-input">
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" id="endereco">
+                        </div>
+                        <div class="info-usuario-input">
+                            <label for="complemento">Complemento:</label>
+                            <input type="text" id="complemento">
+                        <div class="info-usuario-input">
+                            <label for="nameRua">Nome da Rua:</label>
+                            <input type="txt" id="nameRua">
+                        </div>
+                        <div class="info-usuario-input">
+                            <label for="estado">Estado:</label>
+                            <input type="txt" id="estado">
+                        </div>
+                        <div class="info-usuario-input">
+                            <label for="cidade">Cidade:</label>
+                            <input type="txt" id="cidade">
+                        </div>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="box-usuario-grup">
+                    <legend>Pagamento</legend>
+                    <div class="info-usuario-grup">
+                        <div class="info-usuario-input">
+                            <label for="endereco">Número do Cartão:</label>
+                            <input type="number" id="endereco">
+                        </div>
+                        <div class="info-usuario-input">
+                            <label for="complemento">Validade:</label>
+                            <input type="date" id="complemento">
+                        <div class="pagamento">
+                            <div class="info-usuario-input">
+                                <label for="nameRua">Código:</label>
+                                <input type="number" id="nameRua">
+                            </div>
+                            <div class="info-usuario-input">
+                                <label for="estado">Nome do Titular:</label>
+                                <input type="txt" id="estado">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
