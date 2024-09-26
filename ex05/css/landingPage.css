@@ -88,7 +88,36 @@ main {
 .txt-group1 #titleThree {
     text-align: center;
 }
+.txt-group1 #titleThree p {
+    text-align: justify;
+    font-size: 12px;
+    margin: 1rem 0 0 1rem;
+}
 
+.txt-group1 .pasta p, .mainCourse p {
+    font-size: 12px;
+    margin: 1rem 0 0 1rem;
+    text-align: justify;
+}
+
+.right-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 3rem;
+}
+.right-group h3{
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
 .right-group img{
     max-width: 30vh;
+}
+#endereco{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
 }
