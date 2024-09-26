@@ -53,7 +53,7 @@ main {
 }
 .lef-group .txt-group .line1 {
     border: 1px solid red;
-    width: 430px;
+    width: 440px;
     height: 2px;
     margin: 1rem 0 0 1rem;
     background-color: red;
@@ -61,17 +61,19 @@ main {
 
 .lef-group .txt-group {
     display: flex;
-    gap: 10px;
+   
 }
 .txt-group #txtOne {
     font-size: 12px;
     text-align: justify;
     margin: 1rem 0 0 1rem;
+    width: 80%;
 }
 .txt-box #txtTwo, #txtThree{
     font-size: 12px;
-    margin: 1rem 0 0 1rem;
+    margin-top: 1rem ;
     text-align: justify;
+    width: 80%;
 }
 .txt-group1 {
     display: flex;
